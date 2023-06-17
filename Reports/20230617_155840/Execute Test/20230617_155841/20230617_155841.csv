@@ -1,0 +1,21 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Execute Test,,,,2023-06-17 15:58:51,2023-06-17 15:58:58,6.941s,PASSED
+,,,,,,,
+Test Cases/GET list user,,,,2023-06-17 15:58:55,2023-06-17 15:58:55,0.270s,PASSED
+"response = sendRequest(findTestObject(""01 GET list user"", [""listUserPageNum"":listUserPageNum]))",,,,2023-06-17 15:58:55,2023-06-17 15:58:55,0.260s,PASSED
+,,,,,,,
+Test Cases/GET single user,,,,2023-06-17 15:58:55,2023-06-17 15:58:56,1.376s,PASSED
+"response1 = sendRequest(findTestObject(""02 GET single user"", [""userId"":userId]))",,,,2023-06-17 15:58:55,2023-06-17 15:58:56,0.199s,PASSED
+slurper = new groovy.json.JsonSlurper(),,,,2023-06-17 15:58:56,2023-06-17 15:58:56,0.009s,PASSED
+result = slurper.parseText(response1.getResponseBodyContent()),,,,2023-06-17 15:58:56,2023-06-17 15:58:56,0.021s,PASSED
+value = email,,,,2023-06-17 15:58:56,2023-06-17 15:58:56,0.007s,PASSED
+"println("".. value extracted is : "" + value)",,,,2023-06-17 15:58:56,2023-06-17 15:58:56,0.002s,PASSED
+email = value,,,,2023-06-17 15:58:56,2023-06-17 15:58:56,0.000s,PASSED
+"println("".. Global variable is : "" + email)",,,,2023-06-17 15:58:56,2023-06-17 15:58:56,0.001s,PASSED
+"sendRequestAndVerify(findTestObject(""02 GET single user""))",,,,2023-06-17 15:58:56,2023-06-17 15:58:56,0.814s,PASSED
+,,,,,,,
+Test Cases/PUT update,,,,2023-06-17 15:58:56,2023-06-17 15:58:57,1.095s,PASSED
+"sendRequestAndVerify(findTestObject(""03 PUT update"", [""userId"":userId]))",,,,2023-06-17 15:58:57,2023-06-17 15:58:57,0.810s,PASSED
+,,,,,,,
+Test Cases/POST register,,,,2023-06-17 15:58:57,2023-06-17 15:58:58,0.866s,PASSED
+"sendRequest(findTestObject(""04 POST register"", [""email"":email]))",,,,2023-06-17 15:58:58,2023-06-17 15:58:58,0.565s,PASSED

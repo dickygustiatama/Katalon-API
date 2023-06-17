@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="New Test Suite" time="4.894" tests="1" failures="0" errors="1">
+   <testsuite name="New Test Suite" tests="1" failures="0" errors="1" time="4.894" skipped="0" timestamp="2023-06-17 02:53:28" hostname="Dicky Gustiatama - TAMA-DESKTOP" id="Test Suites/New Test Suite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="D:\\Project\\Katalon Studio\\reqres-API\\Reports\\20230617_025318\\New Test Suite\\20230617_025318"/>
+         <property name="logFiles" value="D:\\Project\\Katalon Studio\\reqres-API\\Reports\\20230617_025318\\New Test Suite\\20230617_025318\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Dicky Gustiatama - TAMA-DESKTOP"/>
+         <property name="hostAddress" value="192.168.0.106"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.6.5.208"/>
+      </properties>
+      <testcase name="Test Cases/GET list user" time="0.372" classname="Test Cases/GET list user" status="ERROR">
+         <error type="ERROR" message="Test Cases/GET list user FAILED.
+Reason:
+groovy.lang.GroovyRuntimeException: Ambiguous method overloading for method com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords#validateJsonAgainstSchema.
+Cannot resolve which method to invoke for [null, class java.lang.String] due to overlapping prototypes between:
+	[class com.kms.katalon.core.testobject.ResponseObject, class java.lang.String]
+	[class java.lang.String, class java.lang.String]
+	at GET list user.run(GET list user:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1686945198113.run(TempTestSuite1686945198113.groovy:36)
+"/>
+         <system-out><![CDATA[2023-06-17 02:53:33 - [TEST_CASE][ERROR] - Test Cases/GET list user: Test Cases/GET list user FAILED.
+Reason:
+groovy.lang.GroovyRuntimeException: Ambiguous method overloading for method com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords#validateJsonAgainstSchema.
+Cannot resolve which method to invoke for [null, class java.lang.String] due to overlapping prototypes between:
+	[class com.kms.katalon.core.testobject.ResponseObject, class java.lang.String]
+	[class java.lang.String, class java.lang.String]
+	at GET list user.run(GET list user:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1686945198113.run(TempTestSuite1686945198113.groovy:36)
+
+
+2023-06-17 02:53:33 - [TEST_STEP][PASSED] - sendRequestAndVerify(findTestObject("GET list user")): Send request and verify the response successfully
+
+2023-06-17 02:53:33 - [MESSAGE][INFO] - HAR: D:\Project\Katalon Studio\reqres-API\Reports\20230617_025318\New Test Suite\20230617_025318\requests\main\3.har
+
+2023-06-17 02:53:33 - [TEST_CASE][PASSED] - Start Test Case : Verification: Verification accomplished successfully
+
+2023-06-17 02:53:33 - [TEST_STEP][PASSED] - request = getInstance().getCurrentRequest(): null
+
+2023-06-17 02:53:33 - [TEST_STEP][PASSED] - response = getInstance().getCurrentResponse(): null
+
+2023-06-17 02:53:33 - [MESSAGE][PASSED] - Verify response successfully
+
+2023-06-17 02:53:33 - [MESSAGE][PASSED] - All validation steps have been passed
+
+2023-06-17 02:53:33 - [MESSAGE][PASSED] - Send request and verify the response successfully
+
+2023-06-17 02:53:33 - [TEST_STEP][ERROR] - validateJsonAgainstSchema(findTestObject(null), ""): Test Cases/GET list user FAILED.
+Reason:
+groovy.lang.GroovyRuntimeException: Ambiguous method overloading for method com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords#validateJsonAgainstSchema.
+Cannot resolve which method to invoke for [null, class java.lang.String] due to overlapping prototypes between:
+	[class com.kms.katalon.core.testobject.ResponseObject, class java.lang.String]
+	[class java.lang.String, class java.lang.String]
+	at GET list user.run(GET list user:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1686945198113.run(TempTestSuite1686945198113.groovy:36)
+
+
+2023-06-17 02:53:33 - [MESSAGE][WARNING] - Test object id is null
+
+2023-06-17 02:53:33 - [MESSAGE][ERROR] - Test Cases/GET list user FAILED.
+Reason:
+groovy.lang.GroovyRuntimeException: Ambiguous method overloading for method com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords#validateJsonAgainstSchema.
+Cannot resolve which method to invoke for [null, class java.lang.String] due to overlapping prototypes between:
+	[class com.kms.katalon.core.testobject.ResponseObject, class java.lang.String]
+	[class java.lang.String, class java.lang.String]
+	at GET list user.run(GET list user:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1686945198113.run(TempTestSuite1686945198113.groovy:36)]]></system-out>
+         <system-err><![CDATA[2023-06-17 02:53:33 - [TEST_CASE][ERROR] - Test Cases/GET list user: Test Cases/GET list user FAILED.
+Reason:
+groovy.lang.GroovyRuntimeException: Ambiguous method overloading for method com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords#validateJsonAgainstSchema.
+Cannot resolve which method to invoke for [null, class java.lang.String] due to overlapping prototypes between:
+	[class com.kms.katalon.core.testobject.ResponseObject, class java.lang.String]
+	[class java.lang.String, class java.lang.String]
+	at GET list user.run(GET list user:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1686945198113.run(TempTestSuite1686945198113.groovy:36)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2023-06-17 02:53:28 - [TEST_SUITE][ERROR] - New Test Suite: Test Cases/GET list user FAILED.
+Reason:
+groovy.lang.GroovyRuntimeException: Ambiguous method overloading for method com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords#validateJsonAgainstSchema.
+Cannot resolve which method to invoke for [null, class java.lang.String] due to overlapping prototypes between:
+	[class com.kms.katalon.core.testobject.ResponseObject, class java.lang.String]
+	[class java.lang.String, class java.lang.String]
+	at GET list user.run(GET list user:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1686945198113.run(TempTestSuite1686945198113.groovy:36)]]></system-out>
+      <system-err><![CDATA[2023-06-17 02:53:28 - [TEST_SUITE][ERROR] - New Test Suite: Test Cases/GET list user FAILED.
+Reason:
+groovy.lang.GroovyRuntimeException: Ambiguous method overloading for method com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords#validateJsonAgainstSchema.
+Cannot resolve which method to invoke for [null, class java.lang.String] due to overlapping prototypes between:
+	[class com.kms.katalon.core.testobject.ResponseObject, class java.lang.String]
+	[class java.lang.String, class java.lang.String]
+	at GET list user.run(GET list user:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1686945198113.run(TempTestSuite1686945198113.groovy:36)]]></system-err>
+   </testsuite>
+</testsuites>

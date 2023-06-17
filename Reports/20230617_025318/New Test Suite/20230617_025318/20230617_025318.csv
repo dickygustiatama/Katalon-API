@@ -1,0 +1,6 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+New Test Suite,,,,2023-06-17 02:53:28,2023-06-17 02:53:33,4.894s,ERROR
+,,,,,,,
+Test Cases/GET list user,,,,2023-06-17 02:53:33,2023-06-17 02:53:33,0.372s,ERROR
+"sendRequestAndVerify(findTestObject(""GET list user""))",,,,2023-06-17 02:53:33,2023-06-17 02:53:33,0.358s,PASSED
+"validateJsonAgainstSchema(findTestObject(null), """")",,,,2023-06-17 02:53:33,2023-06-17 02:53:33,0.004s,ERROR
